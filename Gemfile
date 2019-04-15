@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'pry-rails'
+gem 'rmagick'
 gem 'sidekiq', require: false
 # gem 'carrierwave', git: 'https://github.com/carrierwaveuploader/carrierwave.git', ref: '49fdad1ec6ca9bb0883b6e193ea64e036e7b48a0'
 gem 'carrierwave', '1.1.0'
@@ -34,7 +35,7 @@ gem 'carrierwave-bombshelter'
 gem 'carrierwave-video'
 gem 'carrierwave-imageoptim'
 gem 'carrierwave-base64'
-gem 'carrierwave-i18n'
+gem 'carrierwave-i18n', git: 'https://github.com/carrierwaveuploader/carrierwave-i18n.git'
 
 group :development, :test do
 end
