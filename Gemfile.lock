@@ -1,9 +1,20 @@
 GIT
-  remote: https://github.com/autobooking/carrierwave_backgrounder
+  remote: https://github.com/autobooking/carrierwave_backgrounder.git
   revision: aeff7aea7133f050c5a3fd5f45bb0e50925db42d
   specs:
     carrierwave_backgrounder (0.4.2)
       carrierwave (>= 0.5, < 2.0)
+
+GIT
+  remote: https://github.com/carrierwaveuploader/carrierwave.git
+  revision: 49fdad1ec6ca9bb0883b6e193ea64e036e7b48a0
+  ref: 49fdad1ec6ca9bb0883b6e193ea64e036e7b48a0
+  specs:
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
 
 GEM
   remote: https://rubygems.org/
@@ -47,10 +58,6 @@ GEM
       tzinfo (~> 1.1)
     arel (8.0.0)
     builder (3.2.3)
-    carrierwave (1.3.1)
-      activemodel (>= 4.0.0)
-      activesupport (>= 4.0.0)
-      mime-types (>= 1.16)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
     crass (1.0.4)
@@ -64,6 +71,7 @@ GEM
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    json (2.2.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -163,6 +171,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  carrierwave!
   carrierwave_backgrounder!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
