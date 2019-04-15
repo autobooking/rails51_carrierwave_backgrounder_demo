@@ -25,9 +25,11 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'pry-rails'
 gem 'sidekiq', require: false
-gem 'carrierwave', git: 'https://github.com/carrierwaveuploader/carrierwave.git', ref: '49fdad1ec6ca9bb0883b6e193ea64e036e7b48a0'
+# gem 'carrierwave', git: 'https://github.com/carrierwaveuploader/carrierwave.git', ref: '49fdad1ec6ca9bb0883b6e193ea64e036e7b48a0'
+gem 'carrierwave', '1.1.0'
 gem 'carrierwave_backgrounder', git: 'https://github.com/autobooking/carrierwave_backgrounder.git'
-gem 'carrierwave-crop'
+# gem 'carrierwave-crop'
+gem 'carrierwave-crop', git: 'https://github.com/autobooking/carrierwave-crop.git'
 gem 'carrierwave-bombshelter'
 gem 'carrierwave-video'
 gem 'carrierwave-imageoptim'
