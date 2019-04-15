@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'sidekiq', require: false
+gem 'carrierwave_backgrounder', git: 'https://github.com/autobooking/carrierwave_backgrounder'
+
 group :development, :test do
 end
 
